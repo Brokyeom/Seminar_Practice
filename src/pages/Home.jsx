@@ -2,12 +2,11 @@ import styled from "styled-components";
 
 export const Home = () => {
   return (
-
-        <StMain>
-          <StButton>Hello Web!</StButton>
-        </StMain>
-  )
-}
+    <StMain>
+      <StButton>Hello Web!</StButton>
+    </StMain>
+  );
+};
 
 const StMain = styled.main`
   display: flex;
@@ -20,7 +19,7 @@ const StButton = styled.button`
   background-color: tomato;
 
   font-size: 2rem;
-  
+
   padding: 1rem 0.5rem 1rem 0.5rem;
 
   border: none;
