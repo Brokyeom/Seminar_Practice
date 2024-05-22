@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
+import "@sopt-makers/ui/dist/index.css";
 
 export const GlobalStyle = createGlobalStyle`
 ${reset}
@@ -11,13 +12,14 @@ html {
     align-items: center;
 }
 
-body {
+body, #root {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
     width: 100%;
+    height: 100vh;
     max-width: 500px; 
 }
 
