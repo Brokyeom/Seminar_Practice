@@ -1,5 +1,4 @@
 import { PolymophicComponent } from "../components/PolymophicComponent";
-import styled from "styled-components";
 
 const Step4 = () => {
   return (
@@ -15,13 +14,3 @@ const Step4 = () => {
 };
 
 export default Step4;
-
-// const StPolymophicComponent = styled(PolymophicComponent)`
-//   background-color: #346ffa;
-//   color: #ffffff;
-//   padding: 12px 20px;
-//   border: none;
-//   border-radius: 10px;
-
-//   cursor: pointer;
-// `;
